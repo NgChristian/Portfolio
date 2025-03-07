@@ -55,7 +55,7 @@ function Projects() {
               isBlog={false}
               title="Podcast - L'IA va-t-elle remplacer les développeurs ?"
               description="Un débat captivant sur l'impact de l'intelligence artificielle dans le monde du développement. 
-              Sommes-nous à l’aube d’une révolution où l’IA remplacera les programmeurs ? Quatre experts confrontent leurs opinions."
+              Sommes-nous à l’aube d’une révolution où l’IA remplacera les programmeurs ?"
               audio={podcastAudio}
             />
           </Col>
