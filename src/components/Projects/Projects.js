@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
-import podcastAudio from "../../Assets/Projects/podcast.mp4";
+import podcastAudio from "../../Assets/Projects/podcast.mp3";
 
 function Projects() {
   return (
