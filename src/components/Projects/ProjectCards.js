@@ -7,7 +7,7 @@ import { BsGithub } from "react-icons/bs";
 function ProjectCards(props) {
   return (
     <Card className="project-card-view">
-      <Card.Img variant="top" src={props.imgPath} alt="card-img" />
+      <Card.Img variant="top" src={props.imgPath} alt="image du projet" />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>
@@ -18,19 +18,15 @@ function ProjectCards(props) {
         {props.audio ? (
           <audio controls style={{ width: "100%", marginTop: "10px" }}>
             <source src={props.audio} type="audio/mpeg" />
-            Your browser does not support the audio element.
+            Votre navigateur ne supporte pas l'élément audio.
           </audio>
         ) : (
-          // Sinon, afficher les boutons GitHub et Demo
           <>
             <Button variant="primary" href={props.ghLink} target="_blank">
               <BsGithub /> &nbsp;
-              {props.isBlog ? "Blog" : "GitHub"}
+              {props.isBlog ? "Article" : "Code source"}
             </Button>
-            {"\n"}
-            {"\n"}
 
-            {/* Afficher le bouton "Demo" seulement si ce n'est pas un blog et qu'il y a un lien demo */}
             {!props.isBlog && props.demoLink && (
               <Button
                 variant="primary"
@@ -39,7 +35,7 @@ function ProjectCards(props) {
                 style={{ marginLeft: "10px" }}
               >
                 <CgWebsite /> &nbsp;
-                {"Demo"}
+                {"Démo"}
               </Button>
             )}
           </>

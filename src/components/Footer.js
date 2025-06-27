@@ -10,10 +10,10 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Christian NGUYEN</h3>
+          <h3>Design et développement : Christian NGUYEN</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} SB</h3>
+          <h3>© {year} Christian NGUYEN</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
@@ -21,18 +21,18 @@ function Footer() {
               <a
                 href="https://github.com/NgChristian"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillGithub />
               </a>
             </li>
-           
+
             <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/christian-nguyen-8a8a6520a/"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />

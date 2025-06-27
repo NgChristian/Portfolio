@@ -318,12 +318,12 @@ button:focus {
 }
 
 .home-about-section {
-  position: relative;
   padding-bottom: 70px !important;
   padding-top: 70px !important;
 }
 
 .home-about-description {
+  margin: auto !important;
   color: white !important;
   padding-top: 100px !important;
   padding-bottom: 20px !important;

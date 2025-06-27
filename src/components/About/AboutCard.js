@@ -8,33 +8,30 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Christian NGUYEN </span>
-            from <span className="purple"> Noisy-le-Grand, France.</span>
+            Salut ! Je m'appelle <span className="purple">Christian NGUYEN</span>,
+            je viens de <span className="purple">Noisy-le-Grand, France</span>.
             <br />
-            I am currently employed as a software developer at Juspay.
+            Je suis actuellement en dernière année de B.U.T. Informatique à l'IUT de Villetaneuse.
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            Je suis passionné par le développement web, notamment avec des technos comme
+            <span className="purple"> React, Node.js, TypeScript</span> et <span className="purple">Python</span>.
+            <br />
+            J’ai travaillé sur plusieurs projets allant de la data visualisation à la création d’applications web complètes.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            En dehors du code, j’aime aussi :
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Les jeux vidéo
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> La randonnée
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> La natation
             </li>
           </ul>
-
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
-          </p>
-          <footer className="blockquote-footer">Christian NGUYEN</footer>
         </blockquote>
       </Card.Body>
     </Card>

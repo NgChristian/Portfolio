@@ -13,10 +13,10 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          Mes <strong className="purple">projets récents</strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Voici quelques projets sur lesquels j’ai travaillé récemment.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
@@ -54,8 +54,10 @@ function Projects() {
               imgPath={editor}
               isBlog={false}
               title="Podcast - L'IA va-t-elle remplacer les développeurs ?"
-              description="Un débat captivant sur l'impact de l'intelligence artificielle dans le monde du développement. 
-              Sommes-nous à l’aube d’une révolution où l’IA remplacera les programmeurs ?"
+              description={
+                "Un débat captivant sur l'impact de l'intelligence artificielle dans le monde du développement. " +
+                "Sommes-nous à l’aube d’une révolution où l’IA remplacera les programmeurs ?"
+              }
               audio={podcastAudio}
             />
           </Col>
